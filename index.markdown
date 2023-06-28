@@ -1,10 +1,18 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
+Thuya CMS is an open-source headless Content Management System.
+
 ![Thuya CMS full logo](/assets/logo_full.png)
 
-The documentation is currently under development. Come back later for more details.
+## Goals
+
+The goal of Thuya CMS is to simplify backend development. As a result, the target audience is software developers.
+
+With the help of Thuya, it is not required to:
+
+- Write the same authorization or authentication logic again and again
+- Create a database connection and implement the persistency just to store some simple data
+- Pull some large packages where your project uses only a little piece of it
+- Read through long documentation about the required JSON or YAML formats to define your content
