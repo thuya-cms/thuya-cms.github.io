@@ -4,7 +4,7 @@ layout: home
 
 Thuya CMS is an open-source headless Content Management System.
 
-![Thuya CMS full logo](/assets/logo_full.png)
+![Thuya CMS full logo](assets/index/logo-full.png)
 
 ## Goals
 

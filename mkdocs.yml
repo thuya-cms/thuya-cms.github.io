@@ -1,0 +1,20 @@
+site_name: Thuya CMS
+repo_name: Repository
+repo_url: https://github.com/thuya-cms/thuya-cms.github.io
+
+theme:
+  name: material
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - content.tooltips
+  palette:
+    scheme: slate
+    primary: green
+    accent: amber
+
+nav:
+  - Welcome: index.md
+  - Terminology: terminology.md
