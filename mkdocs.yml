@@ -1,6 +1,6 @@
 site_name: Thuya CMS
-repo_name: Repository
-repo_url: https://github.com/thuya-cms/thuya-cms.github.io
+repo_name: GitHub 
+repo_url: https://github.com/thuya-cms
 
 theme:
   name: material
@@ -18,3 +18,12 @@ theme:
 nav:
   - Welcome: index.md
   - Terminology: terminology.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

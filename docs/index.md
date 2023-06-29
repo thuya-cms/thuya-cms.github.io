@@ -14,5 +14,5 @@ With the help of Thuya, it is not required to:
 
 - Write the same authorization or authentication logic again and again
 - Create a database connection and implement the persistency just to store some simple data
-- Pull some large packages where your project uses only a little piece of it
+- Pull large packages where your project uses only a little piece of it
 - Read through long documentation about the required JSON or YAML formats to define your content
