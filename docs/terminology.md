@@ -1,8 +1,3 @@
----
-layout: page
-title: Terminology
----
-
 With Thuya you can easily define "structures" that can be mapped to JSON objects. To do this you need to get familiar with the following terms:
 
 - Content Definition

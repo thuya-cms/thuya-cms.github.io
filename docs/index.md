@@ -1,8 +1,4 @@
----
-layout: home
----
-
-Thuya CMS is an open-source headless Content Management System.
+Thuya CMS is an open-source, headless Content Management System based on NodeJS and Express.
 
 ![Thuya CMS full logo](assets/index/logo-full.png)
 

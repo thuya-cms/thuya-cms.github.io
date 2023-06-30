@@ -1,5 +1,5 @@
 site_name: Thuya CMS
-repo_name: GitHub 
+repo_name: thuya-cms 
 repo_url: https://github.com/thuya-cms
 
 theme:
@@ -15,10 +15,6 @@ theme:
     primary: green
     accent: amber
 
-nav:
-  - Welcome: index.md
-  - Terminology: terminology.md
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -27,3 +23,15 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+nav:
+  - Welcome: index.md
+  - Terminology: terminology.md
+  - Development:
+    - Module: development/module.md
+    - Content Provider: development/content-provider.md
+    - Content Definition: development/content-definition.md
+    - Content Field Definition: development/content-field-definition.md
+    - Controller: development/controller.md
