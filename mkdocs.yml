@@ -28,7 +28,17 @@ markdown_extensions:
 
 nav:
   - Welcome: index.md
-  - Terminology: terminology.md
+  - Basics:
+    - Terminology: 
+      - Introduction: basics/terminology/introduction.md
+      - Content field definition: basics/terminology/content-field-definition.md
+      - Content definition: basics/terminology/content-definition.md
+      - Content: basics/terminology/content.md
+    - Content management: 
+      - Introduction: basics/content-management/introduction.md
+      - Content field definition: basics/content-management/content-field-definition.md
+      - Content definition: basics/content-management/content-definition.md
+      - Content: basics/content-management/content.md
   - Development:
     - Module: development/module.md
     - Content Provider: development/content-provider.md
