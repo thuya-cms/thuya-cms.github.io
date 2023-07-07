@@ -46,6 +46,8 @@ nav:
       - Authentication: core/auth/authentication.md
       - Authorization: core/auth/authorization.md
     - Common: core/common.md
+  - Persistency:
+    - MongoDB: persistency/mongodb.md
   - Development:
     - Module: development/module.md
     - Content Provider: development/content-provider.md
