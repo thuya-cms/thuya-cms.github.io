@@ -6,4 +6,4 @@ Thuya is based on Express, so content can be managed using REST calls. The body 
 - Content field definitions
 - Content
 
-While content definitions and content field definitions are always available on the same url, the access of content depends on the name of the corresponding content definition. But let's take a look at the details starting with [content definitions](./content-definition.md) first.
+While content definitions and content field definitions are always available on the same URL, the access to content depends on the name of the corresponding content definition. But let's take a look at the details starting with [content definitions](./content-definition.md) first.

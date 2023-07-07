@@ -16,11 +16,11 @@ Content definitions have the following structure:
 
 ### `contentFields.name`
 
-Needs to be unique within a content definition.
+It needs to be unique within a content definition.
 
 ### `contentFields.contentFieldDefinitionName`
 
-Needs to match the name of an existing content field definition.
+It needs to match the name of an existing content field definition.
 
 ## Operations
 
@@ -30,19 +30,19 @@ Needs to match the name of an existing content field definition.
 
 Request: `GET <host>/content-definition/name/<content definition name>`
 
-Will return a single content definition by name.
+It will return a single content definition by name.
 
 ### List 
 
 Request: `GET <host>/content-definition`
 
-Will return all content definitions.
+It will return all content definitions.
 
 ### Create
 
 Request: `POST <host>/content-definition`
 
-Will create a new content definition. The body should contain the content definition data without the `id` field.
+It will create a new content definition. The body should contain the content definition data without the `id` field.
 
 !!! warning
     Before creating a content definition you should ensure that all [content field definitions exist](./content-field-definition.md).
@@ -51,7 +51,7 @@ Will create a new content definition. The body should contain the content defini
 
 Request: `PATCH <host>/content-definition`
 
-Will update an existing content definition. The body should contain the content definition data including the `id` field. The content should contain all properties, delta update is not supported.
+It will update an existing content definition. The body should contain the content definition data including the `id` field. The content should include all properties, delta update is not supported.
 
 !!! warning
     Before updating a content definition you should ensure that all [content field definitions exist](./content-field-definition.md).
@@ -62,4 +62,4 @@ Will update an existing content definition. The body should contain the content 
 
 Request: `DELETE <host>/content-definition/name/<content definition name>`
 
-Will delete an existing content definition by name. 
+It will delete an existing content definition by name. 

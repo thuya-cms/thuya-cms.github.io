@@ -1,4 +1,4 @@
-Controllers make it possible to define addition actions for your application using Express router. Let's implement a simple controller that adds a `hello-world` route to our application. To do this we need a class that inherits from `IController`.
+Controllers make it possible to define additional actions for your application using an Express router. Let's implement a simple controller that adds a `hello-world` route to our application. To do this we need a class that inherits from `IController`.
 
 ```typescript
 import { IController } from "@thuya/framework";
@@ -30,4 +30,4 @@ class HelloWorldController implements IController {
 export default new HelloWorldController();
 ```
 
-With this controller in place, if there is a `GET` call to the `/hello-world` url of the application, the "Hello world." text will be returned.
+With this controller in place, if there is a `GET` call to the `/hello-world` URL of the application, the "Hello world." text will be returned.

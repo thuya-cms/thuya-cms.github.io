@@ -33,19 +33,19 @@ The following values are valid:
 
 Request: `GET <host>/content-field-definition/name/<content field definition name>`
 
-Will return a single content field definition by name.
+It will return a single content field definition by name.
 
 ### List 
 
 Request: `GET <host>/content-field-definition`
 
-Will return all content field definitions.
+It will return all content field definitions.
 
 ### Create
 
 Request: `POST <host>/content-field-definition`
 
-Will create a new content field definition. The body should contain the content field definition data without the `id` field.
+It will create a new content field definition. The body should contain the content field definition data without the `id` field.
 
 ### Delete
 
@@ -53,4 +53,4 @@ Will create a new content field definition. The body should contain the content 
 
 Request: `DELETE <host>/content-field-definition/name/<content field definition name>`
 
-Will delete an existing content field definition by name. 
+It will delete an existing content field definition by name. 

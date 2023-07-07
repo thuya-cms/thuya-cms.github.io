@@ -1,4 +1,4 @@
-To create a new content field definition, a class needs to be inherited from one of the type specific classes:
+To create a new content field definition, a class needs to be inherited from one of the type-specific classes:
 
 - TextContentFieldDefinition
 - NumericContentFieldDefinition
@@ -9,7 +9,7 @@ To create a new content field definition, a class needs to be inherited from one
 
 ## Define a text
 
-First let's take a simple example of `TextContentFieldDefinition` to define a new content field definition for email addresses.
+First, let's take a simple example of `TextContentFieldDefinition` to define a new content field definition for email addresses.
 
 ```typescript
 import { TextContentFieldDefinition, Result } from "@thuya/framework";
@@ -44,13 +44,13 @@ class EmailAddressContentFieldDefinition extends TextContentFieldDefinition {
 export default new EmailAddressContentFieldDefinition();
 ```
 
-The above example will create a content field definition that will validate the input content to see if it is a valid email address. For valid input it will convert the string to lower case. It can be used in any content definition for email fields.
+The above example will create a content field definition that will validate the input content to see if it is a valid email address. For valid input, it will convert the string to lowercase. It can be used in any content definition for email fields.
 
-All other simple types like numeric, date and boolean can be defined the same way. Arrays and groups are a little more complex, so let's take a look at it as well.
+All other simple types like numeric, date, and boolean can be defined the same way. Arrays and groups are a little more complex, so let's take a look at them as well.
 
 ## Define an array
 
-Let's assume we would like to collect email address of users in a content, who are authorized to edit it. To achieve it we need an array of email addresses. Luckily we already have the content field definition for email address, so only the array content field definition is required.
+Let's assume we would like to collect the email address of users in a content, who are authorized to edit it. To achieve it we need an array of email addresses. Luckily we already have the content field definition for email addresses, so only the array content field definition is required.
 
 ```typescript 
 import { ArrayContentFieldDefinition } from "@thuya/framework";
@@ -65,11 +65,11 @@ class EmailAddressesContentFieldDefinition extends ArrayContentFieldDefinition {
 export default new EmailAddressesContentFieldDefinition();
 ```
 
-And that's all. With this content field definition we have an array of email addresses. All of the elements will be validated and converted to lower case as defined in the email address content field definition.
+And that's all. With this content field definition, we have an array of email addresses. All of the elements will be validated and converted to lowercase as defined in the email address content field definition.
 
 ## Define a group
 
-Date ranges are used frequently. You could define a simple data content field definition and them them as start date and an end date to each content definition, but you would need to implement interval validations in each content definition separately. That doesn't sound too good.
+Date ranges are used frequently. You could define a simple data content field definition and them as a start date and an end date to each content definition, but you would need to implement interval validations in each content definition separately. That doesn't sound too good.
 
 Instead, we can create a content field definition that contains multiple fields. This is called a group. As it is a content field definition it can contain validations and determinations as usual, so the interval check can be implemented. Then this content field definition can be used in any content definition and it is guaranteed that the intervals are always valid.
 
@@ -111,7 +111,7 @@ class DateIntervalContentFieldDefinition extends GroupContentFieldDefinition<Dat
 export default new DateIntervalContentFieldDefinition();
 ```
 
-The above definition will validate if start date is before end date. When adding the content fields to the group it is also set that both fields are required, so it is not possible to create a date interval if any of its fields is missing.
+The above definition will validate if the start date is before the end date. When adding the content fields to the group it is also set that both fields are required, so it is not possible to create a date interval if any of its fields is missing.
 
 !!! tip "Nesting"
     Groups and arrays can be nested in any depth. So arrays can contain groups or arrays and groups can also contain other groups or arrays.

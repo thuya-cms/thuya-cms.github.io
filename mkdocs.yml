@@ -39,6 +39,7 @@ nav:
       - Content field definition: basics/content-management/content-field-definition.md
       - Content definition: basics/content-management/content-definition.md
       - Content: basics/content-management/content.md
+    - Extend: basics/extend.md
   - Development:
     - Module: development/module.md
     - Content Provider: development/content-provider.md
