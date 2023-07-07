@@ -40,6 +40,12 @@ nav:
       - Content definition: basics/content-management/content-definition.md
       - Content: basics/content-management/content.md
     - Extend: basics/extend.md
+  - Core:
+    - Introduction: core/introduction.md
+    - Auth:
+      - Authentication: core/auth/authentication.md
+      - Authorization: core/auth/authorization.md
+    - Common: core/common.md
   - Development:
     - Module: development/module.md
     - Content Provider: development/content-provider.md
